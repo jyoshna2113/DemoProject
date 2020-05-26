@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 		dryRun=false,
 		monochrome= true,
 		plugin= {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/extendreport.html"},
-		tags= {"@Webtable"}
+		tags= {"@Login"}
 		
 		)
 
