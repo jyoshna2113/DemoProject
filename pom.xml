@@ -168,7 +168,7 @@
     <build>
         <pluginManagement>
             <plugins>
-             <plugin>
+            <plugin>
                 <!-- The maven-compiler-plugin is used to help in compiling the code 
                     and using the particular JDK version for compilation. -->
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -184,16 +184,10 @@
                     test reports. -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
-                <configuration>
-                   <forkCount>5</forkCount>
-					<reuseForks>true</reuseForks>
-					<testFailuerIgnore>true</testFailuerIgnore>
-					<includes>**/*Test.java
-					</includes>
-                </configuration>
+                <version>2.22.0</version>
+                
             </plugin>
-            </plugins>
+             </plugins>
         </pluginManagement>
     </build>
 </project>
